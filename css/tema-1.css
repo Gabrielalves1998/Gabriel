@@ -1,0 +1,182 @@
+/*TAGS GLOBAIS*/
+h1,h2,h3,h4,h5,h6{
+text-transform: uppercase;
+margin: 0 0 auto 0;
+color: black;
+font-weight: normal;
+font-style: italic;
+letter-spacing: 10px;
+}
+
+
+a{}
+
+a:hover{}
+
+/* 
+ESTRUTURA DE CORES  
+*/
+
+.btn{
+    padding: 10px 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.bg-blue{
+    background: black;
+    color:black;
+}
+.btn.bg-blue{
+    background: black; 
+    color:white;
+    border: 1px solid black;
+}
+.bg-gray{
+    background: rgb (250,250,250);
+    color: rgb (51,51,51);
+}
+ /*SEÇÕES*/
+header{min-height:80px;}
+section#news {min-height:420px;}
+
+section#news {min-height: 420px;}
+section#about{padding: 50px 0;}
+/* 
+ESTRUTURA DE LOGOTIPO   
+*/
+
+h1#logo a {
+    background: url("");
+    width: 400px;
+    height: 400px;
+    display: block;
+
+}
+
+h1#logo a {
+    background: url("../img/ski.jpg");
+    width: 400px;
+    height: 400px;
+    display: block;
+}
+
+h1#logo a span {
+    display: none;
+}
+
+/* 
+ESTRUTURA DO MENU
+*/
+body {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+}
+
+ul.menu {
+
+}
+
+ul.menu.horizontal li {
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+
+ul.menu.horizontal li:last-child{
+    border: none;
+}
+
+ul.menu.vertical li{
+    border-left: 4px violet;
+    margin-bottom:2px; 
+}
+
+ul.menu.vertical li:hover{
+    border-left: 2px #f3f3f3 solid;
+    margin-bottom:2px; 
+    background: blueviolet;
+}
+
+ul.menu.vertical li a{
+    border: 1px solid red;
+    text-align: left;
+    color:black;
+}
+
+ul.menu.vertical li a:hover{
+    border: 1px solid burlywood;
+    text-align: left;
+}
+
+
+ul.menu li a {
+    text-decoration: none;
+    padding: 5px 15px;
+    color: black;
+    text-align: center;
+    transition: all 1s;
+}
+
+ul.menu.horizontal li a i{
+    color: rgb(144, 144, 144);
+}
+
+ul.menu.horizontal li a:hover i{
+    color:blue;
+}
+
+ul.menu li a:hover{
+    color: rgb(2, 192, 192);
+}
+
+
+
+.lat{
+    margin-left: 10px;
+}
+
+.git{
+    font-size: 400%;
+}
+
+
+  
+  .active, .btn:hover {
+    background-color: #666;
+    color:black;
+  }
+
+  .fabri {
+     background-color: slategray;
+  }
+
+#services{  
+    margin-top:0;
+    margin-bottom:30px;
+}
+#espaco{
+    margin-top:40px;
+
+}
+
+.fas{
+    color: black;
+}
+.thi{
+    margin-top:30px;
+    margin-bottom:30px;
+
+}
+.fabricia{
+    margin-bottom: 30px;
+}
+
+.bg-cinza{
+  background: rgb(145, 143, 143);
+
+}
+
+ 
